@@ -1,0 +1,142 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.about-section.reverse {
+    flex-direction: row-reverse; /* Flips order for specific sections */
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    object-fit: cover;
+}
+
+.about-content {
+    flex: 1;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.about-content h2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+nav {
+    background-color: hwb(0 52% 48%);
+    overflow: hidden;
+    padding: 1px;
+    text-align: center;
+}
+nav a {
+    color: #f9f7f7;
+    text-decoration: none;
+    padding: 10px ;
+    text-align: left;
+    font-style: normal;
+    font-size: 2cap;
+    font-weight: bold;
+    display: inline-block;  
+   
+}
+nav a:hover {
+    background-color: #323030;
+}
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px; /* space between boxes */
+    width: 100%;
+    padding: 20px;
+}
+
+.container {
+    flex: 1;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+   margin-right: 50px;
+   gap: 20px;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    color: #555;
+}
+.contact-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #e05500;
+}
+
